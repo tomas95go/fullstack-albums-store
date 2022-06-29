@@ -4,6 +4,7 @@ import * as ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import InactiveAlbums from "./routes/inactive.albums";
 import ActiveAlbums from "./routes/active.albums";
+import FormAlbum from "./routes/form.albums";
 import App from "./App";
 
 const rootElement = document.getElementById("root");
@@ -13,6 +14,7 @@ ReactDOM.createRoot(rootElement).render(
       <BrowserRouter>
         <Routes>
           <Route path="/albums" element={<App />}>
+            <Route path="form" element={<FormAlbum />} />
             <Route path="active" element={<ActiveAlbums />} />
             <Route path="inactive" element={<InactiveAlbums />} />
           </Route>
