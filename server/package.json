@@ -1,0 +1,32 @@
+{
+  "name": "albums-store",
+  "version": "1.0.0",
+  "description": "Albums store is a fullstack app made with Vite, React and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomas95go/fullstack-albums-store.git"
+  },
+  "keywords": [
+    "Vite",
+    "React",
+    "Express"
+  ],
+  "author": "Gonzalez Oviedo Tomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomas95go/fullstack-albums-store/issues"
+  },
+  "homepage": "https://github.com/tomas95go/fullstack-albums-store#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
