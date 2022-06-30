@@ -12,4 +12,11 @@ const httpPostNewAlbum = async (newAlbum) => {
   console.log(album);
 };
 
-export { httpPostNewAlbum };
+const httpGetAllAlbums = async () => {
+  const response = await fetch(`${API_URL}/albums`);
+  const data = await response.json();
+  const { albums } = data;
+  return albums;
+};
+
+export { httpPostNewAlbum, httpGetAllAlbums };
