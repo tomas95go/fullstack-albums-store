@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/tomas95go/fullstack-albums-store#readme",
   "dependencies": {
+    "albums-store": "file:..",
     "cors": "^2.8.5",
     "express": "^4.18.1"
   },
